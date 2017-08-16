@@ -1,0 +1,237 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/*Web Fonts ----------*/
+
+@font-face {
+    font-family: 'elliotsixregular';
+    src: url('web fonts/elliotsix_regular_macroman/ElliotSix-webfont.eot');
+    src: url('web fonts/elliotsix_regular_macroman/ElliotSix-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web fonts/elliotsix_regular_macroman/ElliotSix-webfont.woff') format('woff'),
+         url('web fonts/elliotsix_regular_macroman/ElliotSix-webfont.ttf') format('truetype'),
+         url('web fonts/elliotsix_regular_macroman/ElliotSix-webfont.svg#elliotsixregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/**********************************
+HEADING
+***********************************/
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'elliotsixregular', cursive;
+  margin: 15px 0;
+  font-size: 1.75em;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+  font-family: 'Barrio', cursive;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-family: 'Barrio', cursive;
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #1F5766;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/**********************************
+PAGE: GALLERY
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #98D3F5;
+  color: #1F5766;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #1F5766
+}
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+.profile-photo {
+  border-radius: 100%;
+  clear: both;
+  margin: 0 auto 30px;
+  max-width: 150px;
+  display: block;
+}
+
+h3 {
+  margin: 0 0 30px 0;
+  padding: 0;
+
+}
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+
+}
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px 0;
+}
+
+
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png'); 
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #E5F6FE;
+  color: #1F5766;
+}
+
+/*blue header */
+header {
+  background: #00A4D0;
+  border-color: #E5F6FE;
+}
+
+
+/* nav background on mobile */
+nav {
+  background: #004051;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #46C7EA;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #008CB2;
+}
+
+/* Gallery background */
+#llama {
+  background: linear-gradient(0deg, #fff,transparent 25%), 
+  url('../img/llamabg2.jpg');
+}
+
